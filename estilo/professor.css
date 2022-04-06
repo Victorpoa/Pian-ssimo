@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin: 0;
+    margin-right: 50px;
+    box-shadow: 5px 5px 5px rgb(43, 41, 41);
+    border-radius: 5px;
+}
+#voltar_inicio{
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+}
+#voltar_inicio:hover{
+    text-decoration: underline;
+}
+.header_2{
+    text-align: center;
+}
+#ft_perfil{
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgb(80, 80, 80);
+}
+main{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+}
+#contatos{
+    text-align: center;
+}
+#face_url{
+    margin-right: 50px;
+}
+#dev{
+    font-size: 1em;
+    color: yellow;
+}
+footer{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
