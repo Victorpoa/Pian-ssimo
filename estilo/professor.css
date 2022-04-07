@@ -5,6 +5,7 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 #logo{
     margin: 0;
@@ -40,6 +41,10 @@ main{
 }
 #face_url{
     margin-right: 50px;
+}
+iframe{
+    text-align: center;
+    margin: 20px;
 }
 #dev{
     font-size: 1em;
