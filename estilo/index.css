@@ -35,17 +35,6 @@ body{
 #section_1{
     margin-top: 10%;
 }
-
-@media screen and (max-width: 800px) {
-    #perfil{
-        height: 150px;
-        width: 150px;
-    }
-    .div-slider{
-        display: none;
-    }
-    
-}
 .texto_chamativo{
     text-align: center;
     color: white;
@@ -170,4 +159,23 @@ input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3{
 	background-color: rgba(0, 0, 0, 0.8);
+}
+.img_tela_pequena{
+    display: none;
+}
+/*---↓--↓--↓--↓--↓--↓--resposividade--↓--↓--↓--↓--↓--*/
+
+@media screen and (max-width: 800px) {
+    #perfil{
+        height: 150px;
+        width: 150px;
+    }
+    .div-slider{
+        display: none;
+    }
+    .img_tela_pequena{
+        text-align: center;
+        display:block;
+        
+    }
 }

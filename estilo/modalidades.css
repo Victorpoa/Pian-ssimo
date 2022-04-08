@@ -26,6 +26,9 @@ footer{
     color: white;
     text-align: center;
 }
+.tela_pequena{
+    display: none;
+}
 /*-------------------------------*/
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
@@ -139,4 +142,13 @@ input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3{
 	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 800px){
+    .tela_pequena{
+        display: block;
+    }
+    .div-slider{
+        display: none;
+    }
 }
