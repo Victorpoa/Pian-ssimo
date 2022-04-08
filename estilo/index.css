@@ -35,6 +35,17 @@ body{
 #section_1{
     margin-top: 10%;
 }
+
+@media screen and (max-width: 800px) {
+    #perfil{
+        height: 150px;
+        width: 150px;
+    }
+    .div-slider{
+        display: none;
+    }
+    
+}
 .texto_chamativo{
     text-align: center;
     color: white;
@@ -66,7 +77,6 @@ text-align: center;
     margin: auto;
     position: relative;
 }
-
 .slides-front * {
     user-select: none;
     -ms-user-select: none;

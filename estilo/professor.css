@@ -1,19 +1,16 @@
 @charset "utf-8";
 
-*{
-	text-align: center;
-}
 body{
     background-color: black;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 #logo{
     margin: 0;
     margin-right: 50px;
     box-shadow: 5px 5px 5px rgb(43, 41, 41);
     border-radius: 5px;
+
 }
 #voltar_inicio{
     font-size: 1em;
@@ -44,6 +41,9 @@ main{
 #face_url{
     margin-right: 50px;
 }
+#containeryt{
+    text-align: center;
+}
 iframe{
     text-align: center;
     margin: 20px;
@@ -57,3 +57,14 @@ footer{
     color: white;
     text-align: center;
 }
+/*-------------------------------*/
+@media screen and (max-width: 800px) {
+    #logo {
+      height: 150px;
+      width: 150px;
+    }
+    iframe{
+        height: 250px;
+        width: 400px;
+    }
+  }
