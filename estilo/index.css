@@ -7,7 +7,6 @@
 }
 head{
     background-color: black;
-    color: black;
 }
 body{
     margin: 0;
@@ -38,6 +37,9 @@ body{
 .texto_chamativo{
     text-align: center;
     color: white;
+}
+audio{
+    height: 20px;
 }
 #dev{
     font-size: 1em;
